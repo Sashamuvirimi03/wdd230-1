@@ -1,0 +1,6 @@
+/* Updated media query for larger screens */
+@media only screen and (min-width: 32.5em) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

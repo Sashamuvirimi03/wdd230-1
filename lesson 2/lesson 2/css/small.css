@@ -1,0 +1,58 @@
+body {
+    font-size: 18px;
+    background-color: #87CEFA; /* Light Sky Blue */
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif; /* Change to a different sans-serif font */
+    color: #333; /* Dark gray text color */
+}
+
+h3, p {
+    font-family: 'Cursive', cursive;
+    color: #444; /* Slightly darker than body text */
+}
+
+header {
+    text-align: center;
+    background-color: #3498db; /* Dodger Blue */
+    color: #fff; /* White text color */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb6c1; /* Light Pink */
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#modified {
+    color: #73a556; /* Olive Green */
+}
+
+footer {
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Change to a common sans-serif font */
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

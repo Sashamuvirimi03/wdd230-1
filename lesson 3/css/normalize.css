@@ -1,0 +1,99 @@
+/*! PartyTime.css v1.0.0 | Let the Fun Begin! | github.com/chatgpt/playful-styles */
+
+/* Document
+   ========================================================================== */
+
+   html {
+    line-height: 1.25; /* Set the groove for line height */
+    -webkit-text-size-adjust: 100%; /* Prevent iOS font size mayhem */
+  }
+  
+  body { margin: 0; } /* Erase the margin for a clean slate */
+  
+  main { display: block; } /* Make main the star of the show consistently in IE */
+  
+  h1 { font-size: 2.5em; margin: 0.67em 0; } /* Headliners get the spotlight! */
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  hr {
+    box-sizing: content-box; height: 0; overflow: visible; /* Reveal overflow secrets */
+  }
+  
+  pre { font-family: 'Courier New', monospace; font-size: 1.1em; } /* Set the right groove for code */
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  a { background-color: transparent; } /* Eliminate the gray background on active links */
+  
+  abbr[title] {
+    border-bottom: none; text-decoration: underline; text-decoration: underline dotted; /* Add the right text decoration */
+  }
+  
+  b, strong { font-weight: 800; } /* Pump up the font weight */
+  
+  code, kbd, samp { font-family: 'Courier New', monospace; font-size: 1.1em; } /* Set the right groove for code */
+  
+  small { font-size: 85%; } /* Set the correct font size */
+  
+  sub, sup {
+    font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;
+  }
+  
+  sub { bottom: -0.25em; } sup { top: -0.5em; } /* Keep `sub` and `sup` in check */
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  img { border-style: none; } /* Remove border on images inside links */
+  
+  /* Forms
+     ========================================================================== */
+  
+  button, input, optgroup, select, textarea {
+    font-family: inherit; font-size: 100%; line-height: 1.2; margin: 0;
+  }
+  
+  button, input { overflow: visible; } /* Show off the overflow */
+  
+  button, select { text-transform: none; } /* Say goodbye to text transform inheritance */
+  
+  button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button; /* Correct styling of clickable types in iOS and Safari */
+  }
+  
+  fieldset { padding: 0.4em 0.8em 0.6em; } /* Set the correct padding for fieldset */
+  
+  legend {
+    box-sizing: border-box; color: inherit; display: table; max-width: 100%;
+    padding: 0; white-space: normal;
+  } /* Correct legend style */
+  
+  progress { vertical-align: baseline; } /* Align things vertically */
+  
+  textarea { overflow: auto; } /* Remove the default vertical scrollbar */
+  
+  [type="checkbox"], [type="radio"] { box-sizing: border-box; padding: 0; } /* Correct checkbox/radio style */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button { height: auto; } /* Correct spinner style */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; outline-offset: -2px; /* Correct search style */
+  }
+  
+  ::-webkit-file-upload-button { -webkit-appearance: button; font: inherit; } /* Correct file upload button style */
+  
+  /* Interactive
+     ========================================================================== */
+  
+  details { display: block; } /* Display details right */
+  
+  summary { display: list-item; } /* Display summary right */
+
+ 
+
+
+  
