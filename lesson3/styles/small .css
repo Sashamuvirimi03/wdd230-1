@@ -42,8 +42,11 @@
   }
   
   li::before {
-    content:"❓";
-  }
+    content: "• ";
+    padding-right: 8px; /* Adjust the spacing to your liking */
+}
+
+
   
   h3,
   h4 {
@@ -94,13 +97,13 @@
   }
   
   .item-2 {
-    color: #09110c;
-    background-color: #f5f9ff;
+    color: #dedede;
+    background-color: #204f96;
   }
   
   .item-3 {
-    color: #164b2a;
-    background-color: #dedede;
+    color: #0c0913;
+    background-color: #eecece;
   }
   
   .item-4 {
@@ -117,7 +120,7 @@
   }
   
   footer {
-    background-color:rgb(19, 58, 73);
+    background-color:rgb(113, 123, 128);
     color: #f5f9ff;
     padding: 1rem;
     border-bottom-right-radius: 5px;
