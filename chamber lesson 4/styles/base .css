@@ -1,0 +1,56 @@
+/* Base styles */
+body {
+    font-family: 'Manrope', 'Questrial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .nav, .main, .footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-logo {
+    width: 100px; /* Adjust based on actual logo size */
+    height: auto;
+}
+
+.motto {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav button {
+    display: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Class to hide navigation in mobile view initially */
+.hide {
+    display: none;
+}

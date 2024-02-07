@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    nav ul li {
+        display: inline-block; /* Change to inline-block for better spacing */
+        margin-right: 30px;
+    }
+
+    nav button {
+        display: none; /* Ensure button is not shown in tablet and desktop views */
+    }
+
+    .main-logo {
+        width: 150px; /* Slightly bigger logo for larger screens */
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/base .css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="styles/medium .css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 1024px)">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Questrial&display=swap" rel="stylesheet">
+    <script src="js/lesson4.js"></script>
+    <title>Econet Wireless</title>
+    <meta name="description" content="Explore Econet Wireless services. Project for WDD230 at BYU-Idaho by Sasha.">
+    <link rel="shortcut icon" href="images/econet-icon.png">
+</head>
+<body>
+    <header>
+        <img class="main-logo" src="images/logo.jpg" alt="Econet Wireless logo">
+        <h1>Econet Wireless</h1>
+        <p class="motto">Connecting your world.</p>
+    </header>
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Plans</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Welcome to Econet Wireless</h2>
+        <section class="content">About Econet Wireless and its Vision</section>
+        <section class="content">Our Services Overview</section>
+        <section class="content">Latest Plans and Offers</section>
+        <section class="content">Get in Touch with Us</section>
+    </main>
+    
+    <footer>
+        <div class="lastInfo">
+                &#169; Econet Wireless | Attributions | <a href="https://sashamuvirimi03.github.io/wdd230-1/">Sasha</a>
+                <div id="updated"></div>
+        </div>
+    </footer>
+    
+    <script>
+        // JavaScript to update the last modification date in the footer
+        document.getElementById('updated').textContent = `Last Updated: ${document.lastModified}`;
+    </script>
+</body>
+</html>
