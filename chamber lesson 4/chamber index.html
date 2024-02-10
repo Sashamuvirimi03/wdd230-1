@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harare Chamber of Commerce Home-page</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Gabarito&family=Lato:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <meta name="description" content="Harare Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+    <meta name="author" content="Sasha Mudiwanashe Muvirimi">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <a class="logo" href="chamber-index.html">
+                <img src="images/harare-city-chamber-of-commerce-.png" alt="Harare Logo">
+            </a>
+            <div>
+                <h3>Harare</h3>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook log .jpg" alt="Facebook icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedIn.png" alt="LinkedIn icon">
+            </a>
+        </div>
+
+        <nav>
+            <button id="menu"></button>
+            <ul class="navbar">
+                <li><a href="chamber-index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="hero">
+        <div id="hero-img">
+            <picture>
+                <source srcset="images/hero_small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero_medium.webp" media="(max-width: 750px)">
+                <img src="images/harare picture.webp" width="100%" alt="Harare Chamber of Commerce Hero Image">
+            </picture>
+        </div>
+        <div class="join-box">
+            <a class="join" href="#">Join the Chamber</a>
+        </div>
+    </div>
+
+    <main>
+        <div id="first-grid">
+            <section class="news-release">
+                <h3>News Release</h3>
+                <hr>
+                <p>
+                    The Harare Chamber of Commerce is renowned for setting benchmarks in promoting economic development at the district level, enhancing the business environment for local enterprises and entrepreneurs. With its commitment to growth and development, Harare is on a trajectory to achieve significant milestones in the future.
+                </p>
+            </section>
+            <section class="weather">
+                <h3>Weather</h3>
+                <hr>
+                <p>Wind: <strong>9mph</strong></p>
+                <p>Wind Chill: <strong><span id="windChill"></span>&deg;</strong></p>
+            </section>
+        </div>
+        <div id="second-grid">
+            <section class="customs">
+                <h3>Zimbabwe's Premier Services</h3>
+                <p>"Delivering top-notch services to our community"</p>
+                <ul>
+                    <li><a href="mailto:service@premierservices.zw">service@premierservices.zw</a></li>
+                    <li><a href="tel:+263775694469">+263 775 694469</a></li>
+                    <li><a href="#">Website</a></li>
+                </ul>
+            </section>
+        </div>
+        
+            <section class="more">
+                <h3>Want To Know More?</h3>
+                <p>Join the chamber of commerce and discover how you can benefit from our network!</p>
+                <ul>
+                    <li><a href="tel:+263718283455">+263 718 283455</a></li>
+                    <li><a href="#">Website</a></li>
+                </ul>
+            </section>
+            <section class="comments">
+                <h3>Comments</h3>
+                <p>Joining the chamber of commerce has significantly expanded my business network, proving to be an invaluable decision.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="ft">
+        <div class="ft1">
+            <div class="footer-logo">
+                <img class="bottom-logo" src="images/harare footer.png" alt="Harare Chamber Of Commerce Footer Logo">
+            </div>
+            <div class="address-section">
+                <h3>Harare</h3>
+                <h3>Chamber of Commerce</h3>
+                <p class="footer-address">CBD1 Robert Mugabe Rd, Harare, Zimbabwe</p>
+                <p class="footer-email">contact@hararechamber.co.zw</p> 
+                <p class="footer-phone-number">+(263) 718 283 455</p> 
+                <a class="footer-location" href="https://maps.app.goo.gl/8Zvm52FoxuHkZ6HN6">Location Map</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="ftr">
+            <div class="info">
+                <p>&copy;<span id="year"></span> Harare Chamber of Commerce</p>
+                <p><strong>Sasha Mudiwanashe Muvirimi</strong></p>
+                <p>WDD 230 Project</p>
+            </div>
+            <p class="date">Last Modified: <span id="currentdate"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

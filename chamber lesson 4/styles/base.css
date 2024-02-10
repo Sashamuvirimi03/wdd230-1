@@ -1,0 +1,116 @@
+/* Basic css */
+* {
+    list-style-type: none;
+}
+
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0.75rem;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1;
+    background-color: #f4f4f2; /* Lighter background */
+}
+
+nav {
+    font-family: var(--nav-font);
+}
+
+:root {
+    --text-color: #333; /* Darker text for better contrast */
+    --bg-color: #4e8098; /* A soft blue background */
+    --hf-font: "Aleo", serif;
+    --nav-font: "Lato", sans-serif;
+    --paragraph-font: "Raleway", sans-serif;
+    --heading-font: "Roboto Slab", serif;
+    --join-font: "Gabarito", sans-serif;
+    --active-color: #ff8c42; /* A vibrant orange for active elements */
+    --footer-font: "Roboto Mono", monospace;
+}
+
+header, footer {
+    background-color: #375362; /* A darker shade of blue */
+    color: #e7e7e7; /* Soft white text */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo h3 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.social img, .logo img, .bottom-logo {
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+.logo img, .bottom-logo {
+    width: 80px; /* Adjusted for consistency */
+}
+
+.social img {
+    width: 30px;
+}
+
+.header-section {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-section h3 {
+    margin: 0;
+    font-family: var(--hf-font);
+}
+
+.header-section h3:nth-child(1), .header-section h3:nth-child(2) {
+    text-align: center;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+#menu {
+    font-size: 1.5rem;
+    background-color: var(--bg-color);
+    padding: 0.25rem 0.75rem;
+    border: none; /* Adjusted for clarity */
+    color: var(--text-color);
+    position: absolute;
+    top: .4rem;
+    right: .2rem;
+    cursor: pointer;
+}
+
+#menu::before, #menu.open::before {
+    content: "☰";
+    color: var(--text-color); /* Ensuring visibility */
+}
+
+#menu.open::before {
+    content: "✖️";
+}
+
+ul .active, .active::before, .active::after {
+    color: var(--active-color);
+}
+
+/* Adjustments to home page styles and responsive design remain the same */
+
+/* Media queries */
+@media screen and (max-width:55em), (max-width:52em) {
+    /* Adjustments for mobile responsiveness */
+}
